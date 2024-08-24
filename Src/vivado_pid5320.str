@@ -1,0 +1,340 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 5320
+License: Customer
+
+Current time: 	Sat Aug 24 17:31:47 IST 2024
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/viado/Vivado/2018.2/tps/win64/jre
+Java executable location: 	F:/viado/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: C:/Users/ASUS/Desktop/NP/Lab 9
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: F:/viado/Vivado
+HDI_APPROOT: F:/viado/Vivado/2018.2
+RDI_DATADIR: F:/viado/Vivado/2018.2/data
+RDI_BINDIR: F:/viado/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	F:/viado/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ASUS/Desktop/NP/Lab 9/vivado.log
+Vivado journal file location: 	C:/Users/ASUS/Desktop/NP/Lab 9/vivado.jou
+Engine tmp dir: 	C:/Users/ASUS/Desktop/NP/Lab 9/.Xil/Vivado-5320-TUF-A17RR
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/viado/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: F:/viado/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: F:/viado/Vivado/2018.2
+XILINX_SDK: F:/viado/SDK/2018.2
+XILINX_VIVADO: F:/viado/Vivado/2018.2
+XILINX_VIVADO_HLS: F:/viado/Vivado/2018.2
+
+
+GUI allocated memory:	153 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 475 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 60 MB (+60319kb) [00:00:14]
+// [Engine Memory]: 456 MB (+327039kb) [00:00:14]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+964kb) [00:00:14]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ASUS\Desktop\NP\Lab 9\Lab 9.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/NP/Lab 9/Lab 9.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 39 MB. Current time: 8/24/24 5:31:49 PM IST
+// [Engine Memory]: 512 MB (+34239kb) [00:00:19]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/NP/Lab 9/Lab 9.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 556 MB (+19824kb) [00:00:24]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/viado/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 638 MB (+55890kb) [00:00:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 656 MB. GUI used memory: 43 MB. Current time: 8/24/24 5:32:13 PM IST
+// [Engine Memory]: 671 MB (+1234kb) [00:00:43]
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:27 . Memory (MB): peak = 842.738 ; gain = 178.090 
+// Project name: Lab 9; location: C:/Users/ASUS/Desktop/NP/Lab 9; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 50 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 3); // B (D, ck)
+// PAPropertyPanels.initPanels (ProcessorSim.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ProcessorSim(Behavioral) (ProcessorSim.vhd)]", 4, true); // B (D, ck) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 686 MB. GUI used memory: 44 MB. Current time: 8/24/24 5:33:15 PM IST
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ad (ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 70 MB (+3577kb) [00:01:49]
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Sat Aug 24 17:33:21 2024] Launched synth_1... Run output will be captured here: C:/Users/ASUS/Desktop/NP/Lab 9/Lab 9.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// [GUI Memory]: 79 MB (+4846kb) [00:02:06]
+// [GUI Memory]: 83 MB (+571kb) [00:02:16]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 300ms to process. Increasing delay to 2000 ms.
+// ah (ck): Synthesis Completed: addNotify
+// [GUI Memory]: 88 MB (+572kb) [00:08:29]
+// Elapsed time: 619 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 829 MB. GUI used memory: 45 MB. Current time: 8/24/24 5:43:45 PM IST
+// [Engine Memory]: 841 MB (+143642kb) [00:12:16]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,011 MB. GUI used memory: 44 MB. Current time: 8/24/24 5:43:50 PM IST
+// [Engine Memory]: 1,012 MB (+134988kb) [00:12:20]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,089 MB (+27839kb) [00:12:22]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/ASUS/Desktop/NP/Lab 9/Lab 9.srcs/constrs_1/new/Basys3Labs.xdc] Finished Parsing XDC File [C:/Users/ASUS/Desktop/NP/Lab 9/Lab 9.srcs/constrs_1/new/Basys3Labs.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1257.055 ; gain = 390.160 
+// 'dP' command handler elapsed time: 14 seconds
+// [GUI Memory]: 95 MB (+3167kb) [00:12:25]
+// Elapsed time: 14 seconds
+dismissDialog("Open Synthesized Design"); // bx (ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -21542, 141570); // D (I, ck)
+// [Engine Memory]: 1,165 MB (+22453kb) [00:12:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,259 MB. GUI used memory: 74 MB. Current time: 8/24/24 5:44:06 PM IST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [Engine Memory]: 1,263 MB (+42014kb) [00:12:35]
+// RouteApi::initDelayMediator elapsed time: 13.5s
+// [Engine Memory]: 1,556 MB (+240310kb) [00:12:37]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 26 seconds
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "project_summary"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+// [GUI Memory]: 100 MB (+366kb) [00:13:27]
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k (j, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 98248, 152460); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X11Y111'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 545, 154, 1229, 578); // U (k, ck)
+// PAPropertyPanels.initPanels (Tile: CLBLM_R_X11Y111) elapsed time: 0.2s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 134878, 246510); // D (I, ck)
+// Device view-level: 2.3
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 160539, 252448); // D (I, ck)
+// Device select: 'BEL - F7BMUX'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 4152, 6529, 1229, 578); // U (k, ck)
+// [GUI Memory]: 106 MB (+643kb) [00:13:30]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,562 MB. GUI used memory: 99 MB. Current time: 8/24/24 5:45:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,564 MB. GUI used memory: 79 MB. Current time: 8/24/24 5:45:03 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,564 MB. GUI used memory: 77 MB. Current time: 8/24/24 5:45:03 PM IST
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Device_zoom_fit"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Device view-level: 0.0
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 85378, 115830); // D (I, ck)
+// Device select: 'Tile - CLBLM_L_X8Y122'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 532, 117, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 257638, 324720); // D (I, ck)
+// Device select: 'Tile - CLBLM_L_X36Y58'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 706, 328, 1229, 578); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,565 MB. GUI used memory: 78 MB. Current time: 8/24/24 5:45:09 PM IST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 198238, 319770); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X27Y59'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 646, 323, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100, false, false, false, false, true); // D (I, ck) - Double Click
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,570 MB. GUI used memory: 80 MB. Current time: 8/24/24 5:45:13 PM IST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100, false, false, false, false, true); // D (I, ck) - Double Click
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 74488, 485100); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X7Y9'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 521, 490, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 47758, 460350); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X3Y16'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 494, 465, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 87358, 455400); // D (I, ck)
+// Device select: 'Tile - DSP_R_X9Y15'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 534, 460, 1229, 578); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,570 MB. GUI used memory: 80 MB. Current time: 8/24/24 5:45:16 PM IST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 58648, 396990); // D (I, ck)
+// Device select: 'Tile - CLBLL_L_X4Y35'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 505, 401, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 102208, 387090); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X11Y38'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 549, 391, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 243778, 384120); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X33Y39'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 692, 388, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 335848, 389070); // D (I, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 253678, 288090); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X35Y69'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 702, 291, 1229, 578); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,570 MB. GUI used memory: 81 MB. Current time: 8/24/24 5:45:19 PM IST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 217048, 235620); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X29Y85'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 665, 238, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 263578, 131670); // D (I, ck)
+// Device select: 'Clock Region - X1Y2'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 712, 133, 1229, 578); // U (k, ck)
+// [GUI Memory]: 112 MB (+105kb) [00:13:50]
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 240808, 154440); // D (I, ck)
+// Device select: 'Tile - CLBLM_R_X33Y110'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 689, 156, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 240808, 154440, false, false, false, false, true); // D (I, ck) - Double Click
+// Device select: 'Tile - CLBLM_R_X33Y110'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 689, 156, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 187348, 93060, false, false, false, true, false); // D (I, ck) - Popup Trigger
+// Device select: 'Tile - CLBLM_R_X25Y128'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 635, 94, 1229, 578); // U (k, ck)
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 635, 94, 1229, 578, false, false, false, true, false); // U (k, ck) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // aa (aj, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 87358, 136620); // D (I, ck)
+// Device select: 'Tile - DSP_R_X9Y115'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 534, 138, 1229, 578); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,572 MB. GUI used memory: 80 MB. Current time: 8/24/24 5:45:24 PM IST
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 87358, 136620, false, false, false, false, true); // D (I, ck) - Double Click
+// Device select: 'Tile - DSP_R_X9Y115'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 534, 138, 1229, 578); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 80428, 177210); // D (I, ck)
+// Device select: 'Tile - CLBLM_L_X8Y103'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 527, 179, 1229, 578); // U (k, ck)
+// [GUI Memory]: 119 MB (+1623kb) [00:13:56]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 2); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,576 MB. GUI used memory: 80 MB. Current time: 8/24/24 5:46:15 PM IST
+// [GUI Memory]: 126 MB (+1692kb) [00:14:49]
