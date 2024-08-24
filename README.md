@@ -41,7 +41,7 @@ vivado -Open project> Lab9.xpr
 ![diagram](docs/diagram.png)
 
 # Instruction Flow
-Instruction must be hard code into ROM in Vivado -Sources/Design Sources/ProgramROM.vhd. Reffer followin instruction architecture
+Instruction must be hard code into ROM in Vivado -Sources/Design Sources/ProgramROM.vhd. Reffer to following instruction architecture
 when hard coding your program.
 
 ![diagram](docs/instructions.png)
