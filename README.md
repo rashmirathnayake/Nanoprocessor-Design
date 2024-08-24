@@ -22,9 +22,9 @@ The program to be executed by the nanoprocessor is hardcoded into the ROM. This 
 # Installation
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/nanoprocessor-vivado.git
+git clone https://github.com/rashmirathnayake/Nanoprocessor-Design
 
-cd nanoprocessor-vivado
+cd Nanoprocessor-Design
 ```
 
 Open the project in Vivado:
